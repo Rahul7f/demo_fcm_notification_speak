@@ -11,16 +11,13 @@ Future<void> main() async {
   await Firebase.initializeApp(
     options: DefaultFirebaseOptions.currentPlatform,
   );
-
-
   FirebaseMessaging.onMessage.listen((RemoteMessage message) {
     print('Got a message whilst in the foreground!');
     print('Message data: ${message.data}');
 
     final notification = message.notification;
     if (notification != null) {
-      print(
-          'Message also contained a notification: ${notification.title.toString()}');
+      print('Message also contained a notification: ${notification.title.toString()}');
     }
   });
   final fcmToken = await FirebaseMessaging.instance.getToken();

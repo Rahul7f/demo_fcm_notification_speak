@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1032780395632",
+    "project_id": "fir-cdc2d",
+    "storage_bucket": "fir-cdc2d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1032780395632:android:a6fdd8b3c789945e53f0b5",
+        "android_client_info": {
+          "package_name": "com.example.demo_fcm_notification_speak"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1032780395632-n2cod3st3s58rmt901lvqsuri9la3uda.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCxvPk9kHkdG0_nytuFzHr8FLpPzu4uRBU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1032780395632-n2cod3st3s58rmt901lvqsuri9la3uda.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

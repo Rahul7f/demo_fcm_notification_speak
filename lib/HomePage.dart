@@ -84,8 +84,9 @@ class _HomePageState extends State<HomePage> {
 }
 
 Future<void> backgroundMessageHandler(RemoteMessage message) async {
-  print(message.data);
-  _speak("form background Message Handler");
+  print(message.data["msg"] );
+  print(message.notification?.title??"");
+  _speak(message.data["msg"]);
 }
 
 
